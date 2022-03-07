@@ -17,4 +17,15 @@ model Post{
   id String @id @default(auto()) @map("_id") @db.ObjectId
   title String
   body String
+  // photos Photo[]
 }
+
+// type Photo {
+
+//   height Int
+
+//   width  Int
+
+//   url    String
+
+// }

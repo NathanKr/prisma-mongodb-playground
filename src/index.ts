@@ -1,5 +1,4 @@
 import { PrismaClient } from "@prisma/client";
-import { mainModule } from "process";
 const prisma = new PrismaClient();
 
 async function main() {
@@ -7,6 +6,7 @@ async function main() {
     data: {
       title: "some title 1",
       body: "some body 1",
+      // i am getting error here photos : [{height: 1,width : 2, url : "xxx"}]
     },
   });
   console.log(post);

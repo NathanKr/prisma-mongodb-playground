@@ -1,6 +1,10 @@
 <h2>Motivation</h2>
 Access mongodb using prisma via typescript
 
+<h2>Limitation</h2>
+For a quick and dirty solution i need compound aobject but i got error (search here for photo)
+
+
 <h2>Points of interest</h2>
 <ul>
 <li>I have provided my computer ip In atlas->Network Access->IP access list. But looks like that after restart it is changing thus connecting to the cluster will not work. You need to get new ip  otherwise you get an error</li>
